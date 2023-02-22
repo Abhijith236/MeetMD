@@ -1,0 +1,211 @@
+.container{
+    
+    position:static;
+    top: 5px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 20vw;
+    width: 80vw;
+    height: 100vh;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+
+    
+ 
+}
+.head{
+    margin-left: -80%;
+    position: relative;
+    font-family:'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height:27px;
+    color:#191D23;
+    top: 30Px ;
+    left: 10px;
+
+}
+.rto{
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-right: -70%;
+    top: 40px;
+    background: white;
+    color: #02B0AF;
+    border:1px #02B0AF solid;
+    border-radius: 10px;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.rto:hover{
+    background-color: #02B0AF;
+    color:white;
+}
+    
+.sort1,.sort2{
+    border-radius: 4px;
+    border:1px  #64748B solid;
+    background: white;
+    color: #64748B;
+   
+}
+.sort1{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.sort2{
+    margin-right: -650px;
+}
+
+
+
+
+.modalContainer{
+    max-width: 600px;
+    width: 100%;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color:white;
+    font-family: 'Poppins';
+    font-style: normal;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+    height: 90vh;
+    margin-top: 60px;
+
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tablist{
+    display: flex;
+ 
+    flex-direction: row;
+    
+    margin-left: -66%;
+    margin-top: 30px;
+    
+    margin-left: 50px;
+   
+    
+}
+.tabhead{
+    
+    
+    font-family: 'Inter';
+    
+    font-style: normal;
+    
+    background: white;
+    
+    padding: 10px;
+   
+    width: 100px;
+
+    border: white;
+    
+    border-bottom:1px #E7EAEE solid;
+    
+    transition: 0.03s;
+
+}
+
+.tabhead:hover{
+    border-bottom: 1px #02B0AF solid;
+}
+
+.tabhead:focus{
+    border-bottom: 3px #02B0AF solid;
+}
+
+
+.taction{
+    background: #0079E9;
+    border-radius: 4px;
+    border: #0079E9;
+    color:white;
+}
+.taction:hover{
+    background: white;
+    color:#0079E9;
+    border:1px #0079E9 solid;
+    
+}
+.accept{
+    background:  #DAFFEB;
+    color:#006A31;
+    border-radius: 4px;
+    border: #DAFFEB;
+
+}
+.accept:hover{
+    background:  #006A31;
+    color:  #DAFFEB;
+    
+
+}
+
+.tab1 {
+    margin-left: 50px;
+    border-collapse: collapse;
+    width:50vm;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    margin-top: 10px;
+    background-color:white;
+    position:inherit;
+    
+}
+
+.tab1 thead tr {
+    
+    background-color: white;
+    color: #ffffff;
+    text-align: left;
+    
+}
+
+.tab1 th{
+    padding: 5px 15px;
+    border-style: double;
+    border:1px #64748B solid;
+    border-style: double;
+    color:#64748B;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.9951px;
+    line-height: 18px;
+}
+.tab1 th::before{
+    border: 0.5px #64748B solid;
+}
+.tab1 td {
+    padding: 12px 15px;
+    font-family: 'Manrope';
+    font-style: normal;
+    overflow: hidden;
+    
+}
+
+.tab1 tbody tr {
+    border-bottom: 0.92822px solid #E7EAEE;
+}
+
+
+
+
