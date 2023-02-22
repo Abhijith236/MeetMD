@@ -38,6 +38,8 @@
     border-radius: 10px;
     transition: 0.3s;
     padding: 10px;
+    font-weight: bold;
+    line-height: 20px;
 }
 
 .rto:hover{
@@ -165,9 +167,16 @@
     margin-left: 10px;
     font-size: 3.5mm;
 }
+
+.tab{
+    display: flex;
+    flex-direction: column;
+
+}
 .tab1 {
   
     margin-left: 50px;
+  
     border-collapse: collapse;
     width:50vm;
     font-size: 0.9em;
@@ -202,10 +211,14 @@
     border: 0.5px #64748B solid;
 }
 .tab1 td {
+    display: table-cell;
     padding: 12px 15px;
     font-family: 'Manrope';
     font-style: normal;
-    overflow: hidden;
+    overflow-x: hidden;
+    max-width:  300px;
+    text-overflow: clip;
+    word-wrap: break-word;
     
 }
 
