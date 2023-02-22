@@ -7,7 +7,9 @@
     margin-left: 20vw;
     width: 80vw;
     height: 100vh;
-    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+    
+
+    
 
     
  
@@ -61,24 +63,7 @@
 
 
 
-.modalContainer{
-    max-width: 600px;
-    width: 100%;
-    position: fixed;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    background-color:white;
-    font-family: 'Poppins';
-    font-style: normal;
-    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
-    height: 90vh;
-    margin-top: 60px;
 
-
-   
-}
 
 
 
@@ -109,12 +94,14 @@
     font-family: 'Inter';
     
     font-style: normal;
+
+    font-size:4.5mm;
     
     background: white;
     
     padding: 10px;
    
-    width: 100px;
+    width: 200px;
 
     border: white;
     
@@ -122,6 +109,14 @@
     
     transition: 0.03s;
 
+    display: flex;
+    
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: center;
+    
 }
 
 .tabhead:hover{
@@ -136,7 +131,7 @@
 .taction{
     background: #0079E9;
     border-radius: 4px;
-    border: #0079E9;
+    border:1px #0079E9 solid;
     color:white;
 }
 .taction:hover{
@@ -159,7 +154,19 @@
 
 }
 
+.count{
+    background: #02B0AF;
+    color:white;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    padding:2px ;
+    border: 1px#02B0AF solid;
+    margin-left: 10px;
+    font-size: 3.5mm;
+}
 .tab1 {
+  
     margin-left: 50px;
     border-collapse: collapse;
     width:50vm;
@@ -167,7 +174,7 @@
     font-family: sans-serif;
     margin-top: 10px;
     background-color:white;
-    position:inherit;
+    
     
 }
 

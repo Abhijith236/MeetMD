@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import './Tabs.css';
 import data from './mock-data.json';
 import data1 from './mock-data1.json';
@@ -8,14 +8,35 @@ import Modal from './Modal';
 function Tabs(){
 
    
-    const[openModal,setOpenModal]=useState(false);
+    /*const table = document.getElementById("tab1");
+    const rowCount = table.rows.length;
+    const button = document.getElementById("count");
+    
+    if (rowCount === 1) {
+        button.innerText = "1";
+    } 
+    else {
+    button.innerText = `${rowCount}`;
+    }
     const handleClick=()=>{
 
-    }
+    }   */
+
+    
+    const [rowCount, setRowCount] = useState(0);
+    const[openModal,setOpenModal]=useState(false);
     const[Index,setIndex]=useState(0)
     const[Request,setRequest]=useState(data)
-    const[History,setHistory]=useState(data1)     
-    return(
+    const[History,setHistory]=useState(data1) 
+    
+    
+    useEffect(() => {
+        const table = document.getElementById("tab1");
+        setRowCount(table.rows.length);
+      }, []);    
+    
+    
+      return(
             <div className="container">
             <header className='head'>Meet MD</header>
             <button className='rto'>Request Time Off</button>
@@ -23,14 +44,14 @@ function Tabs(){
             <div className='tabs'>
                 <div className='tablist'>
                     <button className='tabhead' onClick={()=>{setIndex(0)}}>
-                        Request
+                        Request <div className='count'>{rowCount-1}</div>
                     </button>
                     <button className='tabhead' onClick={()=>{setIndex(1)}}>
                         History
                     </button>
                 </div>
                 <div className='tabcontent1' hidden={Index!==0}>
-                    <table className='tab1'>
+                    <table className='tab1' id='tab1'>
                         <thead className='th1'>
                             <tr className='tr1'>
                                 <th width="32px">DATE</th>
@@ -39,7 +60,7 @@ function Tabs(){
                                 <th >REQ_DATE</th> 
                                 <th >REQ_TIME</th> 
                                 <th width="300px">PURPOSE OF MEET</th> 
-                                <th >STATUS</th>     
+                                <th >ACTION</th>     
                             </tr>
                         </thead>
                         <tbody className='tb1'>
@@ -72,7 +93,7 @@ function Tabs(){
                         <option value='Date'>Date</option>
                         <option value='Name'>Name</option>
                     </select>
-                    <table className='tab1'>
+                    <table className='tab1' >
                         <thead className='th2'>
                             <tr className='tr2'>
                                 <th width="32px">DATE</th>
