@@ -1,5 +1,6 @@
 .container{
     
+    font-family: 'Poppins';
     position:static;
     top: 5px;
     background: white;
@@ -93,7 +94,7 @@
 .tabhead{
     
     
-    font-family: 'Inter';
+    font-family:'Poppins';
     
     font-style: normal;
 
@@ -174,15 +175,15 @@
 
 }
 .tab1 {
-  
+    column-gap: 25px;
     margin-left: 50px;
-  
-    border-collapse: collapse;
+    border-collapse: separate;
     width:50vm;
     font-size: 0.9em;
     font-family: sans-serif;
     margin-top: 10px;
     background-color:white;
+
     
     
 }
@@ -192,26 +193,27 @@
     background-color: white;
     color: #ffffff;
     text-align: left;
+    border-spacing: 10px;
+    border:1px green solid;
     
 }
 
 .tab1 th{
+  
     padding: 5px 15px;
-    border-style: double;
+    
     border:1px #64748B solid;
-    border-style: double;
     color:#64748B;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 600;
     font-size: 12.9951px;
     line-height: 18px;
+    border-spacing: 10px;
 }
-.tab1 th::before{
-    border: 0.5px #64748B solid;
-}
+
 .tab1 td {
-    display: table-cell;
+    display: able-cell;
     padding: 12px 15px;
     font-family: 'Manrope';
     font-style: normal;

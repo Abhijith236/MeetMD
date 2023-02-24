@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     
   }
@@ -19,7 +18,7 @@
     display: flex;
     background-color:white;
     font-family: 'Poppins';
-    font-style: normal;
+    
     box-shadow: 0px 0px 18px 0px rgba(215, 208, 208, 0.75);
     height: 85vh;
     margin-top: 60px;
@@ -33,7 +32,7 @@
   .fname{
    
     font-family: 'Poppins';
-    font-style: normal;
+    
     margin-left: -15px;
     padding-left: 10px;
   }
@@ -41,12 +40,12 @@
     
     
     font-family: 'Poppins';
-    font-style: normal;
+    
     margin-left: 227px;
   }
   .input1{
     font-family: 'Poppins';
-    font-style: normal;
+    
     margin-left: -5px;
     padding-left: 10px;
     height: 25px;
@@ -56,7 +55,7 @@
   
   .input2{
     font-family: 'Poppins';
-    font-style: normal;
+    
     margin-left:80px ;
     height: 25px;
     width: 200px;
@@ -65,14 +64,14 @@
   
   .adr{
     font-family: 'Poppins';
-    font-style: normal;
+    
     margin-left: -11px;
     padding-left: 10px;
     
   }
   .input3{
     font-family: 'Poppins';
-    font-style: normal;
+    
     min-height: 68px;
     max-height: 68px;
     min-width: 500px;
@@ -82,11 +81,11 @@
   }
   .purpose{
     font-family: 'Poppins';
-    font-style: normal;
+    
   }
   .input4{
     font-family: 'Poppins';
-    font-style: normal;
+    
     min-height: 78px;
     max-height: 78px;
     min-width: 500px;
@@ -98,18 +97,18 @@
   
   .date{
     font-family: 'Poppins';
-    font-style: normal;
+    
     margin-left: -10px;
     padding-left: 10px;
   }
   .time{
     font-family: 'Poppins';
-    font-style: normal;
+    
     margin-left: 267px;
   }
   .input5{
     font-family: 'Poppins';
-    font-style: normal;
+    
     height: 25px;
     width: 200px;
     margin-left: 0px;
@@ -118,7 +117,7 @@
   
   .input6{
     font-family: 'Poppins';
-    font-style: normal;
+    
     height: 25px;
     width: 200px;
     margin-left: 88px;
@@ -126,13 +125,13 @@
   }
   .stat{
     font-family: 'Poppins';
-    font-style: normal;
+    
     margin-left: -267px;
     padding-left: 10px;
   }
   .form-select{
     font-family: 'Poppins';
-    font-style: normal;
+    
     height: 25px;
     width: 200px;
     margin-left: -320px;
@@ -144,11 +143,11 @@
   
   .note{
     font-family: 'Poppins';
-    font-style: normal;
+    
   }
   .input7{
     font-family: 'Poppins';
-    font-style: normal;
+    
     min-height: 78px;
     max-height: 78px;
     min-width: 500px;
@@ -159,7 +158,7 @@
   
   .btn1{
     font-family: 'Poppins';
-    font-style: normal;
+    
     width: 75px;
     height: 29px;
     border: 1.42473px solid #02B0AF;
@@ -177,7 +176,7 @@
   
   .btn2{
     font-family: 'Poppins';
-    font-style: normal;
+    
     width: 75px;
     height: 29px;
     margin-left: 15px;
